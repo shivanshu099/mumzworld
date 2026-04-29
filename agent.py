@@ -1,5 +1,5 @@
 import sqlite3
-from typing import TypedDict, Annotated, Sequence, operator
+from typing import TypedDict, Annotated, Sequence, operator, Optional
 from langchain_core.messages import BaseMessage, HumanMessage, SystemMessage
 from langchain_groq import ChatGroq
 from langchain_core.tools import tool
