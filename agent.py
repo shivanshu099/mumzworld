@@ -16,7 +16,7 @@ class AgentState(TypedDict):
 
 # Define the tool
 @tool
-def search_gifts(query: str = "", max_price: float = None, age_group: str = "") -> str:
+def search_gifts(query: str = "", max_price: Optional[float] = None, age_group: str = "") -> str:
     """
     Search the gifts database for suitable items.
     query: optional search term (e.g. 'monitor', 'toy')
