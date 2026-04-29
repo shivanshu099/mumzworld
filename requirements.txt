@@ -1,0 +1,11 @@
+streamlit>=1.30.0
+langgraph
+langchain
+langchain-core
+langchain-groq
+langchain-google-genai
+SpeechRecognition
+gTTS
+audio_recorder_streamlit
+python-dotenv
+pydub
