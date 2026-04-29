@@ -58,7 +58,7 @@ tools = [search_gifts]
 
 # Set up the LLM
 # Using Groq
-llm = ChatGroq(model="llama-3.1-8b-instant", api_key=os.getenv("GROQ_API_KEY"))
+llm = ChatGroq(model="llama-3.3-70b-versatile", api_key=os.getenv("GROQ_API_KEY"))
 llm_with_tools = llm.bind_tools(tools)
 
 # Define nodes
